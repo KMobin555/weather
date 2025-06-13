@@ -25,7 +25,7 @@ class MCPClient:
         
         gemini_api_key = os.getenv("GOOGLE_API_KEY")
         if not gemini_api_key:
-            raise ValueError("GOOGLE_API_KEY not found. Please add it to your .env file.")
+            raise ValueError("GOOGLE_API_KEY not found. Please add it to your .env file..")
 
         self.genai_client = genai.Client(api_key=gemini_api_key)
         self.chat_history: list[types.Content] = []
