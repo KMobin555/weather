@@ -2,6 +2,10 @@
 
 This project showcases a weather application that leverages a custom **MCP server** built using the **uv** Python package manager, and a conversational AI client powered by **Gemini LLM**. The server fetches weather data for U.S. states, while the client allows natural, interactive conversations with users.
 
+
+> 💡 New to MCP? [Start here with the official MCP Documentation](https://modelcontextprotocol.io/introduction) — it's a great intro to the protocol this project builds on.
+
+
 ---
 
 ## ✨ Chat Example
